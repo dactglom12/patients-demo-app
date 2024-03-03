@@ -111,7 +111,8 @@ export async function POST(req: Request) {
     parsed[clientEntryIndex] = {
       ...parsed[clientEntryIndex],
       PatientNote: notes,
-    };
+      // TODO: resolve correct type [possible link to the created ticket]
+    } as any;
 
     await fs.writeFile(filePath, JSON.stringify(parsed, null, 2));
 
