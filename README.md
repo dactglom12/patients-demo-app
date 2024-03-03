@@ -20,6 +20,21 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Folder structure
+
+- /src/app/api - holds a set of API routes triggered by the client
+- /src/app/[...other folders] - each subfolder is a page (page.tsx is a page declaration)
+- /src/constants - holds a set of constants
+- /src/entities - holds a set of entity declarations in shape of types
+- /src/hooks - custom hooks sit there
+- /src/mocks - holds a huge JSON file that gets modified by one of api routes (note creation)
+- /src/services - holds a set of services for back-end communication
+- /src/utitlites - utility functions belong in there
+
+## Testing
+
+Simply run `npm run test` in your terminal
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
@@ -29,8 +44,6 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Deployed app
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[Link to deployed app](https://patients-demo-g6u0t7fsw-dactglom12.vercel.app/) - your feedback is more than welcome!
