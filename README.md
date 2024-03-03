@@ -46,4 +46,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 ## Deployed app
 
-[Link to deployed app](https://patients-demo-g6u0t7fsw-dactglom12.vercel.app/) - your feedback is more than welcome!
+[Link to deployed app](https://patients-demo-app.vercel.app/) - your feedback is more than welcome!
